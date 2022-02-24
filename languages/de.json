@@ -4911,7 +4911,7 @@
         },
         "cooldown": "<:no:904319985004978198> Please wait {time} more second(s) before reusing the `{commandname}` command.",
         "premium": {
-            "title": "<:no:904319985004978198> **This Command is Premium Only!** <a:nitro:833402717506502707>",
+            "title": "<:no:904319985004978198> **This Command is Premium Only!** <a:nitro:946303929002622996>",
             "description": "> *This means, you need to **pay** in Order to be able to use this Command!*\n\n> [Website](https://milrato.eu) - [Pay through here](https://discord.gg/oryzen)"
         },
         "permissions": {
