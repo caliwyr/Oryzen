@@ -74,7 +74,7 @@ module.exports = {
       embed.addField(client.la[ls].cmds.info.serverinfo.field11, ":black_circle:\`" + message.guild.members.cache.filter(member => !member.presence || member.presence && member.presence.status == "offline").size + "\`", true)
       embed.addField(client.la[ls].cmds.info.serverinfo.field12, "<a:nitro_logo:946303780494929979> \`" + message.guild.premiumSubscriptionCount + "\`", true)
 
-      embed.addField(client.la[ls].cmds.info.serverinfo.field13, `<a:nitro:946303929002622996> \`${boostlevel}\``, true)
+      embed.addField(client.la[ls].cmds.info.serverinfo.field13, `<:nitro:946303929002622996> \`${boostlevel}\``, true)
       embed.addField(client.la[ls].cmds.info.serverinfo.field14, "👾 \`" + maxbitrate + " kbps\`", true)
       if(boosts >= 14){
           embed.addField(`**<:arrow:946300939512463392> Vanity:**`, `${message.guild.vanityURLCode ? `https://discord.gg/${message.guild.vanityURLCode}` : "<:no:904319985004978198> No Vanity-Invite"}`)

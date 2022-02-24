@@ -65,7 +65,7 @@ module.exports = {
         .addField(client.la[ls].cmds.info.serverinfo.field11, ":black_circle:\`" + message.guild.members.cache.filter(member => !member.presence || member.presence.status == "offline").size + "\`", true)
 
         .addField(client.la[ls].cmds.info.serverinfo.field12, "<a:nitro_logo:946303780494929979> \`" + message.guild.premiumSubscriptionCount + "\`", true)
-        .addField(client.la[ls].cmds.info.serverinfo.field13, "<a:nitro:946303929002622996> \`" + boostlevel + "\`", true)
+        .addField(client.la[ls].cmds.info.serverinfo.field13, "<:nitro:946303929002622996> \`" + boostlevel + "\`", true)
         .addField(client.la[ls].cmds.info.serverinfo.field14, "👾 \`" + maxbitrate + " kbps\`", true)
         
         .addField(eval(client.la[ls]["cmds"]["info"]["serverinfo"]["variablex_1"]), eval(client.la[ls]["cmds"]["info"]["serverinfo"]["variable1"]))
