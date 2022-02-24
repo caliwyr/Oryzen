@@ -46,12 +46,12 @@ module.exports = {
 
       const embed = new Discord.MessageEmbed()
         .setTitle(`Connection Info of: \`${user.tag}\``)
-        .addField('<:arrow:832598861813776394> **Channel**', `> **${member.voice.channel.name}** ${member.voice.channel}`, true)
-        .addField('<:arrow:832598861813776394> **Channel-ID**', `> \`${member.voice.channel.id}\``, true)
-        .addField('<:arrow:832598861813776394> **Members in there**', `> \`${member.voice.channel.members.size} total Members\``, true)
-        .addField('<:arrow:832598861813776394> **Full Channel?**', `> ${member.voice.channel.full ? "✅" : "❌"}`, true)
-        .addField('<:arrow:832598861813776394> **Bitrate**', `> ${member.voice.channel.bitrate}`, true)
-        .addField('<:arrow:832598861813776394> **User join limit**', `> \`${member.voice.channel.userLimit != 0 ? member.voice.channel.userLimit : "No limit!"}\``, true)
+        .addField('<:arrow:946300939512463392> **Channel**', `> **${member.voice.channel.name}** ${member.voice.channel}`, true)
+        .addField('<:arrow:946300939512463392> **Channel-ID**', `> \`${member.voice.channel.id}\``, true)
+        .addField('<:arrow:946300939512463392> **Members in there**', `> \`${member.voice.channel.members.size} total Members\``, true)
+        .addField('<:arrow:946300939512463392> **Full Channel?**', `> ${member.voice.channel.full ? "✅" : "❌"}`, true)
+        .addField('<:arrow:946300939512463392> **Bitrate**', `> ${member.voice.channel.bitrate}`, true)
+        .addField('<:arrow:946300939512463392> **User join limit**', `> \`${member.voice.channel.userLimit != 0 ? member.voice.channel.userLimit : "No limit!"}\``, true)
       
       message.reply({
         embeds: [embed]
