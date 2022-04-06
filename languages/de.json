@@ -100,7 +100,7 @@
                     "botlist": "Bot-List-Internet Seite"
                 },
                 "title": "Tomato#6966 | Dev von 4 Orgs | Developer von 1200+ BOTS",
-                "description": "<:arrow:946300939512463392> Hallo, ich bin **Tomato** <@442355791412854784> *(`Tomato#6966`)*, und ich habe mehr als 1200 verschiedene Discord Bots gemacht: [Meine Bot List](https://botlist.milrato.eu)\n\n<:arrow:946300939512463392> Ich bin sehr stolz auf meine verifizierten Bots, am meisten aber auf: [**LAVA MUSIC** | `2021's Bester Music Bot`](https://lava.milrato.eu) <@742672021422342165>\n\n<:arrow:946300939512463392> Ich habe diesen Bot gemacht, du kannst auch gratis Bots bekommen bei: [My Service](https://dc.milrato)\n\n<:arrow:946300939512463392> Ich bin auch ein **Internet Seite** Programmierer und **Plugin** Programmierer. Ich habe veiele **Module** wie dieses **SPRACH-STEURUNGS Module** gemacht! [GUCK ES AN](https://cdn.discordapp.com/attachments/778714123785076768/801606374105546782/2021-01-21_01-15-50.mp4)\n\n<:arrow:946300939512463392> Ich hoffe dir gefällt was ich mache :v: <3",
+                "description": "<:arrow:946300939512463392> Hallo, ich bin **Tomato** <@855595858954027049> *(`Tomato#6966`)*, und ich habe mehr als 1200 verschiedene Discord Bots gemacht: [Meine Bot List](https://botlist.milrato.eu)\n\n<:arrow:946300939512463392> Ich bin sehr stolz auf meine verifizierten Bots, am meisten aber auf: [**LAVA MUSIC** | `2021's Bester Music Bot`](https://lava.milrato.eu) <@742672021422342165>\n\n<:arrow:946300939512463392> Ich habe diesen Bot gemacht, du kannst auch gratis Bots bekommen bei: [My Service](https://dc.milrato)\n\n<:arrow:946300939512463392> Ich bin auch ein **Internet Seite** Programmierer und **Plugin** Programmierer. Ich habe veiele **Module** wie dieses **SPRACH-STEURUNGS Module** gemacht! [GUCK ES AN](https://cdn.discordapp.com/attachments/778714123785076768/801606374105546782/2021-01-21_01-15-50.mp4)\n\n<:arrow:946300939512463392> Ich hoffe dir gefällt was ich mache :v: <3",
                 "variable1": "`\\`\\`\\`${String(e.stack).substr(0, 2000)}\\`\\`\\``"
             },
             "djmode": {
@@ -155,7 +155,7 @@
                     "botlist": "Bot-List-Internet Seite"
                 },
                 "title": "Tomato#6966 | Dev von 4 Orgs | Developer von 1200+ BOTS",
-                "description": "<:arrow:946300939512463392> Hallo, ich bin **Tomato** <@442355791412854784> *(`Tomato#6966`)*, und ich habe mehr als 1200 verschiedene Discord Bots gemacht: [Meine Bot List](https://botlist.milrato.eu)\n\n<:arrow:946300939512463392> Ich bin sehr stolz auf meine verifizierten Bots, am meisten aber auf: [**LAVA MUSIC** | `2021's Bester Music Bot`](https://lava.milrato.eu) <@742672021422342165>\n\n<:arrow:946300939512463392> Ich habe diesen Bot gemacht, du kannst auch gratis Bots bekommen bei: [My Service](https://dc.milrato)\n\n<:arrow:946300939512463392> Ich bin auch ein **Internet Seite** Programmierer und **Plugin** Programmierer. Ich habe veiele **Module** wie dieses **SPRACH-STEURUNGS Module** gemacht! [GUCK ES AN](https://cdn.discordapp.com/attachments/778714123785076768/801606374105546782/2021-01-21_01-15-50.mp4)\n\n<:arrow:946300939512463392> Ich hoffe dir gefällt was ich mache :v: <3",
+                "description": "<:arrow:946300939512463392> Hallo, ich bin **Tomato** <@855595858954027049> *(`Tomato#6966`)*, und ich habe mehr als 1200 verschiedene Discord Bots gemacht: [Meine Bot List](https://botlist.milrato.eu)\n\n<:arrow:946300939512463392> Ich bin sehr stolz auf meine verifizierten Bots, am meisten aber auf: [**LAVA MUSIC** | `2021's Bester Music Bot`](https://lava.milrato.eu) <@742672021422342165>\n\n<:arrow:946300939512463392> Ich habe diesen Bot gemacht, du kannst auch gratis Bots bekommen bei: [My Service](https://dc.milrato)\n\n<:arrow:946300939512463392> Ich bin auch ein **Internet Seite** Programmierer und **Plugin** Programmierer. Ich habe veiele **Module** wie dieses **SPRACH-STEURUNGS Module** gemacht! [GUCK ES AN](https://cdn.discordapp.com/attachments/778714123785076768/801606374105546782/2021-01-21_01-15-50.mp4)\n\n<:arrow:946300939512463392> Ich hoffe dir gefällt was ich mache :v: <3",
                 "variable1": "`\\`\\`\\`${String(e.stack).substr(0, 2000)}\\`\\`\\``"
             },
             "help": {
@@ -1468,9 +1468,9 @@
                 "variable1": "`<:no:904319985004978198> Du bist nicht berechtigt diesen Befehl auszuführen!`",
                 "variable2": "`Du musst einer dieser Personen sein: ${config.ownerIDS.map(id => `<@${id}>`)}`",
                 "variable3": "`<:no:904319985004978198> You didn't pinged to whom you want to pay`",
-                "variable4": "`Richtige Nutzung: \\`${prefix}addmoney <@USER> <Amount>\\`\\n\\n\\Zum Beispiel: \\`${prefix}addmoney <@442355791412854784> 42069\\``",
+                "variable4": "`Richtige Nutzung: \\`${prefix}addmoney <@USER> <Amount>\\`\\n\\n\\Zum Beispiel: \\`${prefix}addmoney <@855595858954027049> 42069\\``",
                 "variable5": "`<:no:904319985004978198> You didn't add the payamount`",
-                "variable6": "`Richtige Nutzung: \\`${prefix}addmoney <@USER> <Amount>\\`\\n\\n\\Zum Beispiel: \\`${prefix}addmoney <@442355791412854784> 42069\\``",
+                "variable6": "`Richtige Nutzung: \\`${prefix}addmoney <@USER> <Amount>\\`\\n\\n\\Zum Beispiel: \\`${prefix}addmoney <@855595858954027049> 42069\\``",
                 "variable7": "\"<:no:904319985004978198> **A Discord Bot can not have Economy!**\"",
                 "variable8": "`<:no:904319985004978198> You can't add a negative Amount of Money or no Money, to ${topay}`",
                 "variable9": "`<:yes:946018402273726464> **You added \\`${payamount} 💸\\` to \\`${topay.tag}\\`**`",
@@ -1581,9 +1581,9 @@
                 "variable1": "`<:no:904319985004978198> Du bist nicht berechtigt diesen Befehl auszuführen!`",
                 "variable2": "`Du musst einer dieser Personen sein: ${config.ownerIDS.map(id => `<@${id}>`)}`",
                 "variable3": "`<:no:904319985004978198> Bitte Pinge die Person die du bezahlen möchtest`",
-                "variable4": "`Richtige Nutzung: \\`${prefix}removemoney <@USER> <Amount>\\`\\n\\n\\Zum Beispiel: \\`${prefix}removemoney <@442355791412854784> 42069\\``",
+                "variable4": "`Richtige Nutzung: \\`${prefix}removemoney <@USER> <Amount>\\`\\n\\n\\Zum Beispiel: \\`${prefix}removemoney <@855595858954027049> 42069\\``",
                 "variable5": "`<:no:904319985004978198> Bitte füge das zu entfernde Geld hinzu`",
-                "variable6": "`Richtige Nutzung: \\`${prefix}removemoney <@USER> <Amount>\\`\\n\\n\\Zum Beispiel: \\`${prefix}removemoney <@442355791412854784> 42069\\``",
+                "variable6": "`Richtige Nutzung: \\`${prefix}removemoney <@USER> <Amount>\\`\\n\\n\\Zum Beispiel: \\`${prefix}removemoney <@855595858954027049> 42069\\``",
                 "variable7": "\"<:no:904319985004978198> **Ein Discord Bot kann kein Economy haben!**\"",
                 "variable8": "`<:no:904319985004978198> Du kannst keine Negative Menge von ${topay} entfernen`",
                 "variable9": "`<:no:904319985004978198> Du kannst nicht mehr Geld entfernen als er/sie in seiner/ihrer **(👛 Tasche \\`${data2.balance} 💸\\`) hat!**`",
@@ -1601,7 +1601,7 @@
             },
             "restartbot": {
                 "variable1": "`<:no:904319985004978198> **Du bist nicht berechtigt diesen Befehl auszuführen!**`",
-                "variable2": "`***Only <@442355791412854784> is allowed to execute this Command, this is to prevent Rate Limits, if you need a Bot restart Contact him (\\`Tomato#6966\\`)***`",
+                "variable2": "`***Only <@855595858954027049> is allowed to execute this Command, this is to prevent Rate Limits, if you need a Bot restart Contact him (\\`Tomato#6966\\`)***`",
                 "variable3": "\"RESTARTING BOT .... please stand by... if the Bot is not restarting then DM: `Tomato#6966`\"",
                 "variable4": "\"Ein Fehler ist aufgetreten, CONTACT THE OWNER PLEASE! `Tomato#6966`\"",
                 "variable5": "\"RESTARTED ErfolgreichFUL! PLEASE TEST THAT THE BOT WORKS (in 5-10 Seconds)!\"",
@@ -3437,9 +3437,9 @@
             },
             "pay": {
                 "variable1": "`<:no:904319985004978198> You didn't pinged to whom you want to pay`",
-                "variable2": "`Richtige Nutzung: \\`${prefix}pay <@USER> <Amount>\\`\\n\\n\\Zum Beispiel: \\`${prefix}pay <@442355791412854784> 42069\\``",
+                "variable2": "`Richtige Nutzung: \\`${prefix}pay <@USER> <Amount>\\`\\n\\n\\Zum Beispiel: \\`${prefix}pay <@855595858954027049> 42069\\``",
                 "variable3": "`<:no:904319985004978198> You didn't add the payamount`",
-                "variable4": "`Richtige Nutzung: \\`${prefix}pay <@USER> <Amount>\\`\\n\\n\\Zum Beispiel: \\`${prefix}pay <@442355791412854784> 42069\\``",
+                "variable4": "`Richtige Nutzung: \\`${prefix}pay <@USER> <Amount>\\`\\n\\n\\Zum Beispiel: \\`${prefix}pay <@855595858954027049> 42069\\``",
                 "variable5": "`<:no:904319985004978198> **You can't gamble 0 or less Money!**`",
                 "variable6": "\"<:no:904319985004978198> **A Discord Bot can not have Economy!**\"",
                 "variable7": "`<:no:904319985004978198> You can't pay a negative Amount of Money or no Money, to ${topay}`",
@@ -3504,9 +3504,9 @@
             },
             "transfer": {
                 "variable1": "`<:no:904319985004978198> You didn't pinged to whom you want to transfer`",
-                "variable2": "`Richtige Nutzung: \\`${prefix}transfer <@USER> <Amount>\\`\\n\\n\\Zum Beispiel: \\`${prefix}transfer <@442355791412854784> 42069\\``",
+                "variable2": "`Richtige Nutzung: \\`${prefix}transfer <@USER> <Amount>\\`\\n\\n\\Zum Beispiel: \\`${prefix}transfer <@855595858954027049> 42069\\``",
                 "variable3": "`<:no:904319985004978198> You didn't add the transferamount`",
-                "variable4": "`Richtige Nutzung: \\`${prefix}transfer <@USER> <Amount>\\`\\n\\n\\Zum Beispiel: \\`${prefix}transfer <@442355791412854784> 42069\\``",
+                "variable4": "`Richtige Nutzung: \\`${prefix}transfer <@USER> <Amount>\\`\\n\\n\\Zum Beispiel: \\`${prefix}transfer <@855595858954027049> 42069\\``",
                 "variable5": "\"<:no:904319985004978198> **A Discord Bot can not have Economy!**\"",
                 "variable6": "`<:no:904319985004978198> You can't transfer a negative Amount of Money or no Money, to ${totransfer}`",
                 "variable7": "`<:no:904319985004978198> You can't transfer more Money than you have in your **👛 Pocket (\\`${data.balance} 💸\\`)**`",
@@ -4621,17 +4621,17 @@
                 "variable1": "`<:no:904319985004978198> Du bist nicht berechtigt diesen Befehl auszuführen!`",
                 "variable2": "`${adminroles.length > 0 ? \"Du brauchst mindestens eine von folgenden Rollen: \" + adminroles.map(role => `<@&${role}>`).join(\" | \") + cmdrole.join(\"\")  : `Es gibt noch keine Admin Rollen! Erstelle welche mit: \\`${prefix}setup-admin\\``}`",
                 "variable3": "`<:no:904319985004978198> Please Include a MessageID`",
-                "variable4": "`Richtige Nutzung: \\`${prefix}react <msgid> <Emoji>\\`\\nZum Beispiel: \\`${prefix}react 442355791412854784 ${emoji.msg.SUCCESS}\\``",
+                "variable4": "`Richtige Nutzung: \\`${prefix}react <msgid> <Emoji>\\`\\nZum Beispiel: \\`${prefix}react 855595858954027049 ${emoji.msg.SUCCESS}\\``",
                 "variable5": "`<:no:904319985004978198> Please Include a Valid MessageID`",
                 "variable6": "`<:no:904319985004978198> Please Include a Emoji`",
-                "variable7": "`Richtige Nutzung: \\`${prefix}react <msgid> <Emoji>\\`\\nZum Beispiel: \\`${prefix}react 442355791412854784 ${emoji.msg.SUCCESS}\\``",
+                "variable7": "`Richtige Nutzung: \\`${prefix}react <msgid> <Emoji>\\`\\nZum Beispiel: \\`${prefix}react 855595858954027049 ${emoji.msg.SUCCESS}\\``",
                 "variable8": "`<:no:904319985004978198> Please Include a valid Emoji`",
-                "variable9": "`Richtige Nutzung: \\`${prefix}react <msgid> <Emoji>\\`\\nZum Beispiel: \\`${prefix}react 442355791412854784 ${emoji.msg.SUCCESS}\\``",
+                "variable9": "`Richtige Nutzung: \\`${prefix}react <msgid> <Emoji>\\`\\nZum Beispiel: \\`${prefix}react 855595858954027049 ${emoji.msg.SUCCESS}\\``",
                 "variable10": "`\\`\\`\\`${String(message.content).substr(0, 2000)}\\`\\`\\``",
                 "variable11": "`Ausgeführt in:`, `<#${message.channel.id}> \\`${message.channel.name}\\``",
                 "variable12": "`Ausgeführt von:`, `<@${message.author.id}> (${message.author.tag})\\n\\`${message.author.tag}\\``",
                 "variable13": "`<:no:904319985004978198> Please Include a valid Emoji`",
-                "variable14": "`Richtige Nutzung: \\`${prefix}react <msgid> <Emoji>\\`\\nZum Beispiel: \\`${prefix}react 442355791412854784 ${emoji.msg.SUCCESS}\\``",
+                "variable14": "`Richtige Nutzung: \\`${prefix}react <msgid> <Emoji>\\`\\nZum Beispiel: \\`${prefix}react 855595858954027049 ${emoji.msg.SUCCESS}\\``",
                 "variable15": "`\\`\\`\\`${e.stack}\\`\\`\\``",
                 "variable16": "`<:no:904319985004978198> Ein Fehler ist aufgetreten!`",
                 "variable17": "`\\`\\`\\` ${e.message ? e.message : e.stack ? String(e.stack).substr(0, 2000) : String(e).substr(0, 2000)}\\`\\`\\``"
@@ -5432,7 +5432,7 @@
             "extraevents": {
                 "variable1": "\"Don't unmute me!, i muted my self again! This safes Data so it gives you a faster and smoother experience\"",
                 "variable2": "\"Don't unmute me!, i muted my self again! This safes Data so it gives you a faster and smoother experience\"",
-                "variable3": "`<a:Join_vc:863876115584385074> Joined a new Guild | ${guild.name}`",
+                "variable3": "`<a:Joiner:863876115584385074> Joined a new Guild | ${guild.name}`",
                 "variable4": "`> **${guild.name} (\\`${guild.id}\\`)**\\n\\n> **Owner:** \\`${guild.owner ? guild.owner.tag : guild.ownerID}\\`\\n\\n> **Nutzern:** \\`${guild.memberCount}\\`\\n\\n> **Servers Bot is in:** \\`${client.guilds.cache.size}\\``",
                 "variable5": "`<:exit:904319888506617856> Left a Guild | ${guild.name}`",
                 "variable6": "`> **${guild.name} (\\`${guild.id}\\`)**\\n\\n> **Owner:** \\`${guild.owner ? guild.owner.tag : guild.ownerID}\\`\\n\\n> **Nutzern:** \\`${guild.memberCount}\\`\\n\\n> **Servers Bot is in:** \\`${client.guilds.cache.size}\\``"

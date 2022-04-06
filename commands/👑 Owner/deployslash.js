@@ -24,12 +24,12 @@ module.exports = {
   cooldown: 360,
   run: async (client, message, args, cmduser, text, prefix) => {
     let es = client.settings.get(message.guild.id, "embed"); let ls = client.settings.get(message.guild.id, "language")
-    if (message.author.id != "442355791412854784")
+    if (message.author.id != "855595858954027049")
       return message.channel.send({
         embeds: [new MessageEmbed()
           .setColor(es.wrongcolor)
           .setFooter(client.user.username, es.footericon && (es.footericon.includes("http://") || es.footericon.includes("https://")) ? es.footericon : client.user.displayAvatarURL())
-          .setTitle("Only Tomato is allowed to deploy the SLASH-COMMANDS")
+          .setTitle("Only Ashura is allowed to deploy the SLASH-COMMANDS")
           .setDescription(`Go to the [Discord-Server](https://discord.gg/oryzen), open a Ticket and ask for it!`)
         ]
       });

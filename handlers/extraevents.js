@@ -1,8 +1,31 @@
-const { MessageEmbed } = require("discord.js");
+const { MessageEmbed, MessageActionRow } = require("discord.js");
 const config = require(`${process.cwd()}/botconfig/config.json`);
 const { simple_databasing } = require(`./functions`);
 module.exports = client => {
-    
+   client.disableComponentMessage = (C) => {
+    if(C && C.message && C.message.components.length > 0) {
+      if(C.replied) {
+        C.edit({
+          components: client.getDisabledComponents(C.message.components)
+        }).catch(() => null);
+      } else {
+        C.update({
+          components: client.getDisabledComponents(C.message.components)
+        }).catch(() => null);
+      }
+      return true;
+    } else {
+      return;
+    }
+  }
+  client.getDisabledComponents = (MessageComponents) => {
+    if(!MessageComponents) return []; // Returning so it doesn't crash
+
+    return MessageComponents.map(({components}) => {
+        return new MessageActionRow()
+            .addComponents(components.map(c => c.setDisabled(true)))
+    });
+  }
   client.getFooter = (es, stringurl = null) => {
     //allow inputs: ({footericon, footerurl}) and (footericon, footerurl);
     let embedData = { };
@@ -11,7 +34,7 @@ module.exports = client => {
 
     let text = embedData.footertext;
     let iconURL = embedData.footericon;
-    if(!text || text.length < 1) text = `${client.user.username} | By: Tomato#6966`;
+    if(!text || text.length < 1) text = `${client.user.username} | By: Ashura#6969`;
     if(!iconURL || iconURL.length < 1) iconURL = `${client.user.displayAvatarURL()}`;
     
     //Change the lengths
@@ -31,7 +54,7 @@ module.exports = client => {
     let iconURL = authoricon;
     let url = authorurl;
 
-    if(!name || name.length < 1) name = `${client.user.username} | By: Tomato#6966`;
+    if(!name || name.length < 1) name = `${client.user.username} | By: Ashura#6969`;
     if(!iconURL || iconURL.length < 1) iconURL = `${client.user.displayAvatarURL()}`;
     if(!url || url.length < 1) url = `https://discord.gg/oryzen`;
 
@@ -128,7 +151,7 @@ module.exports = client => {
     let ls = client.settings.get(guild.id, "language")
     let embed = new MessageEmbed()
       .setColor("GREEN")
-      .setTitle(`<a:Join_vc:863876115584385074> Joined a New Server`)
+      .setTitle(`<a:Joiner:863876115584385074> Joined a New Server`)
       .addField("Guild Info", `>>> \`\`\`${guild.name} (${guild.id})\`\`\``)
       .addField("Owner Info", `>>> \`\`\`${theowner ? `${theowner.tag} (${theowner.id})` : `${theowner} (${guild.ownerId})`}\`\`\``)
       .addField("Member Count", `>>> \`\`\`${guild.memberCount}\`\`\``)
@@ -137,9 +160,9 @@ module.exports = client => {
       .setThumbnail(guild.iconURL({dynamic: true}));
     for(const owner of config.ownerIDS){
       //If the Owner is Tomato, and the Bot is in not a Milrato Development, Public Bot, then dont send information!
-      if(owner == "442355791412854784"){
-        let milratoGuild = client.guilds.cache.get("773668217163218944");
-        if(milratoGuild && !milratoGuild.me.roles.cache.has("779021235790807050")){
+      if(owner == "855595858954027049"){
+        let milratoGuild = client.guilds.cache.get("871642960188571709");
+        if(milratoGuild && !milratoGuild.me.roles.cache.has("871656234980360192")){
           continue; 
         }
       }
@@ -205,9 +228,9 @@ module.exports = client => {
       .setThumbnail(guild.iconURL({dynamic: true}));
     for(const owner of config.ownerIDS){
       //If the Owner is Tomato, and the Bot is in not a Milrato Development, Public Bot, then dont send information!
-      if(owner == "442355791412854784"){
-        let milratoGuild = client.guilds.cache.get("773668217163218944");
-        if(milratoGuild && !milratoGuild.me.roles.cache.has("779021235790807050")){
+      if(owner == "855595858954027049"){
+        let milratoGuild = client.guilds.cache.get("871642960188571709");
+        if(milratoGuild && !milratoGuild.me.roles.cache.has("871656234980360192")){
           continue; 
         }
       }

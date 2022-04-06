@@ -161,7 +161,7 @@ function GetUser(message, arg){
     }
     /**
      * @INFO
-     * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
+     * Bot Coded by Tomato#6966 | https://discord.gg/milrato
      * @INFO
      * Work for Milrato Development | https://milrato.eu
      * @INFO
@@ -404,7 +404,7 @@ async function edit_Roster_msg(client, guild, the_roster_db, pre) {
         }
         /**
          * @INFO
-         * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
+         * Bot Coded by Tomato#6966 | https://discord.gg/milrato
          * @INFO
          * Work for Milrato Development | https://milrato.eu
          * @INFO
@@ -688,8 +688,8 @@ async function create_transcript_buffer(Messages, Channel, Guild){
                 subcontent += `<div class="content"><div class="markdown"><span class="preserve-whitespace">${markdowntohtml(String(msg.cleanContent ? msg.cleanContent : msg.content).replace(/\n/ig, "<br/>"))}</div></div>` 
               } 
               if (msg.embeds[0]){
-                  subcontent += `<div class="embed"><div class=embed-color-pill style=background-color:"${msg.embeds[0].color ? msg.embeds[0].color : "transparent"}"></div><div class=embed-content-container><div class=embed-content><div class=embed-text>` 
-                  
+                  subcontent += `<div class="embed"><div class="embed-color-pill" style="background-color: ${msg.embeds[0].color ? msg.embeds[0].color : "transparent"}"></div><div class="embed-content-container"><div class="embed-content"><div class="embed-text">` 
+                    
                   if(msg.embeds[0].author){
                     subcontent += `<div class="embed-ath">`;
                     if(msg.embeds[0].author.iconURL){
@@ -1376,7 +1376,7 @@ async function swap_pages(client, message, description, TITLE) {
   let cmduser = message.author;
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
+ * Bot Coded by Tomato#6966 | https://discord.gg/milrato
  * @INFO
  * Work for Milrato Development | https://milrato.eu
  * @INFO
@@ -1663,7 +1663,7 @@ function databasing(client, guildid, userid) {
       })
       /**
        * @INFO
-       * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
+       * Bot Coded by Tomato#6966 | https://discord.gg/milrato
        * @INFO
        * Work for Milrato Development | https://milrato.eu
        * @INFO
@@ -1791,7 +1791,7 @@ function databasing(client, guildid, userid) {
 
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
+ * Bot Coded by Tomato#6966 | https://discord.gg/milrato
  * @INFO
  * Work for Milrato Development | https://milrato.eu
  * @INFO
@@ -2269,7 +2269,7 @@ async function create_transcript(message, client, msglimit) {
 }
 /**
  * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
+ * Bot Coded by Tomato#6966 | https://discord.gg/milrato
  * @INFO
  * Work for Milrato Development | https://milrato.eu
  * @INFO
@@ -2633,7 +2633,7 @@ const channelInfo = (url, options = {}) => __awaiter(void 0, void 0, void 0, fun
     }
     /**
      * @INFO
-     * Bot Coded by Tomato#6966 | https://discord.gg/oryzen
+     * Bot Coded by Tomato#6966 | https://discord.gg/milrato
      * @INFO
      * Work for Milrato Development | https://milrato.eu
      * @INFO

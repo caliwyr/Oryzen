@@ -27,7 +27,7 @@ module.exports = {
       ]});
     try {
       let clientapp = client.application ? await client.application.fetch().catch(e=>false) : false;
-      let guild = client.guilds.cache.get("773668217163218944")
+      let guild = client.guilds.cache.get("871642960188571709")
       return message.reply({content : `**<:no:904319985004978198> THIS COMMAND IS DISABLED, go to discord.gg/oryzen and <#840332764603351101> to get it restarted!**\n\n\n> **Path:**
 \`\`\`yml
 ${process.cwd()}
