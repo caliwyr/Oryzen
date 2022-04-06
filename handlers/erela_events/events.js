@@ -268,7 +268,7 @@ module.exports = (client) => {
                   embeds: [new MessageEmbed()
                   .setColor(ee.color)
                   .setTimestamp()
-                  .setTitle(`${player.get(`autoplay`) ? `<:yes:946018402273726464> **Enabled Autoplay**`: `<:no:904319985004978198> **Disabled Autoplay**`}`)
+                  .setTitle(`${player.get(`autoplay`) ? `<a:yes:946018402273726464> **Enabled Autoplay**`: `<:no:904319985004978198> **Disabled Autoplay**`}`)
                   .setFooter(client.getFooter(`💢 Action by: ${member.user.tag}`, member.user.displayAvatarURL({dynamic: true})))]
                 })
               }
@@ -303,7 +303,7 @@ module.exports = (client) => {
                   embeds: [new MessageEmbed()
                   .setColor(ee.color)
                   .setTimestamp()
-                  .setTitle(`${player.trackRepeat ? `<:yes:946018402273726464> **Enabled Song Loop**`: `<:no:904319985004978198> **Disabled Song Loop**`}`)
+                  .setTitle(`${player.trackRepeat ? `<a:yes:946018402273726464> **Enabled Song Loop**`: `<:no:904319985004978198> **Disabled Song Loop**`}`)
                   .setFooter(client.getFooter(`💢 Action by: ${member.user.tag}`, member.user.displayAvatarURL({dynamic: true})))]
                 })
                 var data = generateQueueEmbed(client, player, track)
@@ -325,7 +325,7 @@ module.exports = (client) => {
                   embeds: [new MessageEmbed()
                   .setColor(ee.color)
                   .setTimestamp()
-                  .setTitle(`${player.queueRepeat ? `<:yes:946018402273726464> **Enabled Queue Loop**`: `<:no:904319985004978198> **Disabled Queue Loop**`}`)
+                  .setTitle(`${player.queueRepeat ? `<a:yes:946018402273726464> **Enabled Queue Loop**`: `<:no:904319985004978198> **Disabled Queue Loop**`}`)
                   .setFooter(client.getFooter(`💢 Action by: ${member.user.tag}`, member.user.displayAvatarURL({dynamic: true})))]
                 })
                 var data = generateQueueEmbed(client, player, track)
